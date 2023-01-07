@@ -19,6 +19,12 @@ class Interface(GridLayout):
     pass
 
 
-
-
+def color_coverter(x):
+    y = 0.00392156863
+    return x * y
+def color_converter(red,green,blue):
+    red=color_coverter(red)
+    green=color_coverter(green)
+    blue=color_coverter(blue)
+    print(f"red: {red},green: {green},blue: {blue}")
 TestApp().run()
