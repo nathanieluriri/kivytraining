@@ -1,13 +1,17 @@
 Interface:
 <Interface>:
     #"left", "right","center"
-    anchor_x: 'left'
+    anchor_x: 'center'
     # "top", 'center', "bottom"
-    anchor_y: 'top'
-    Button:
-        text: '1'
-        size_hint: None,None
-        size: 200,200
+    anchor_y: 'center'
+    BoxLayout
+        size_hint: .25,.25
+        Button:
+            text: '1'
+
+        Button:
+            text: '2'
+
 
 
 
