@@ -2,6 +2,7 @@
 # step 2: create the interface
 
 from kivy.app import App
+from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.widget import Widget
@@ -15,7 +16,7 @@ class TestApp(App):
 
 
 
-class Interface(GridLayout):
+class Interface(AnchorLayout):
     pass
 
 
