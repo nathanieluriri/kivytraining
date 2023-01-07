@@ -27,4 +27,6 @@ def color_converter(red,green,blue):
     green=color_coverter(green)
     blue=color_coverter(blue)
     print(f"red: {red},green: {green},blue: {blue}")
+
+# color_converter(36,34,34)
 TestApp().run()
