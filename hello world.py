@@ -9,7 +9,9 @@ class TestApp(App):
     pass
 
 class Interface(Widget):
-    pass
+    def pressed(self):
+        print("enter was pressed")
+#         this function will be called any time enter is pressed because of the on text validate event
 
 
 

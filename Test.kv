@@ -1,29 +1,13 @@
 <Interface>:
 Interface:
+   TextInput:
 
-    Button:
-        text: "Blue"
-        color :(1,0,0,1)
-        background_color : (0,0,1,1)
-        background_normal: ''
-        pos: 50,200
-        size: 200,100
+      text: "enter your name"
 
-    Button :
-        text: 'Green'
-
-        color: (0,0,1,1)
-        background_color : (0,1,0,1)
-        background_normal: ''
-        pos: 300,200
-        size: 200,100
-    Button :
-        text: 'Red'
-        color: (0,1,0,1)
-        background_color : (1,0,0,1)
-        background_normal: ''
-        pos: 550,200
-        size: 200,100
+      pos:340,240
+      size: 200,40
+      multiline: False
+      on_text_validate:root.pressed() # this allows us to access the funtion in the Interface class
 
 
 
