@@ -16,7 +16,7 @@ import random
 class TestApp(App):
     pass
 
-class scroller(ScrollView):
+class scroller():
     pass
 
 
