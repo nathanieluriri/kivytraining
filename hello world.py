@@ -5,6 +5,7 @@ from kivy.app import App
 from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.gridlayout import GridLayout
+from kivy.uix.scrollview import ScrollView
 from kivy.uix.stacklayout import StackLayout
 from kivy.uix.widget import Widget
 from kivy.uix.button import Button
@@ -13,6 +14,9 @@ import random
 
 
 class TestApp(App):
+    pass
+
+class scroller(ScrollView):
     pass
 
 
