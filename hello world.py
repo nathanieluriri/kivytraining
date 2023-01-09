@@ -16,21 +16,21 @@ import random
 class TestApp(App):
     pass
 
-class scroller():
+class Scroller():
     pass
 
 
 class StackInterface(StackLayout):
     def __init__(self,**kwargs):
         super().__init__(**kwargs)
-        for i in range(110):
+        for i in range(250):
             a = random.random()-.2
             b=random.random()-.2
             c=random.random()+.2
             d=random.random()+.2
-            b1 = Button(text= f'{i}', size_hint= (.1,.1),background_normal='',background_color=(a,b,c,d))
+            b1 = Button(text= f'{i}', size_hint= (None,None),background_normal='',background_color=(a,b,c,d), size =(100,100))
             self.add_widget(b1)
-            print(random.random())
+
 
 
 
