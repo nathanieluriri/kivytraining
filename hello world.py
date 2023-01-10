@@ -5,6 +5,7 @@
 from kivy.app import App
 from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.stacklayout import StackLayout
@@ -13,7 +14,11 @@ from kivy.uix.button import Button
 import random
 
 
+class FLoating(FloatLayout):
+    pass
 
+class Relative_Practice(FloatLayout):
+    pass
 class TestApp(App):
     pass
 
@@ -31,6 +36,8 @@ class StackInterface(StackLayout):
             d=random.random()+.2
             b1 = Button(text= f'{i}', size_hint= (None,None),background_normal='',background_color=(a,b,c,d), size =(100,100))
             self.add_widget(b1)
+
+
 
 
 
