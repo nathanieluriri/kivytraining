@@ -1,6 +1,7 @@
 # step 1: create the app
 # step 2: create the interface
 
+
 from kivy.app import App
 from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.boxlayout import BoxLayout
@@ -23,8 +24,8 @@ class Scroller():
 class StackInterface(StackLayout):
     def __init__(self,**kwargs):
         super().__init__(**kwargs)
-        for i in range(250):
-            a = random.random()-.2
+        for i in range(500):
+            a = random.random()+.2
             b=random.random()-.2
             c=random.random()+.2
             d=random.random()+.2
